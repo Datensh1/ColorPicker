@@ -1,0 +1,106 @@
+body{background-image: url(https://e0.pxfuel.com/wallpapers/977/96/desktop-wallpaper-chainsaw-man-chainsawman-makima.jpg);
+
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;}
+
+.card{
+  
+    background-color: rgba(255, 255, 255, 0.2);
+width: 400px;
+height:600px;
+display: grid;
+place-items: center;
+margin-top: 50px;
+left: 35%;
+position: relative;
+border-radius: 50px;
+border: solid 1px black;
+
+}
+.top-part{font-size: 50px;
+font-family: Arial;
+font-weight: Bold;
+position: absolute;
+top: 10%;}
+.mid-part{position: absolute;
+top: 5%;
+left:33%;
+}
+#sum-el{font-size: 10em;
+
+display: grid;
+place-items: center;
+max-width: 500px;}
+#save-el{font-size: 3em;
+margin-top: -100px;
+margin-left: -120px;}
+
+.buttons{ display: flex;
+
+    column-gap: 30px ;
+position: absolute;
+left: 37% ;
+top: 74%;
+
+
+    z-index: 1;
+}
+#button-up{ width: 100px;
+    height: 75px;
+ 
+border-radius: 1em;
+border-style: none
+;
+border-color: none;
+ background-color: hsl(120, 40%, 50%,0.8);
+ font-size: 20px;
+
+font-family: Arial;
+
+}
+
+#button-downs{ width: 100px;
+    height: 75px;
+border-radius: 1em;
+border-style: none
+;
+border-color: none;
+
+ font-size: 20px;
+
+font-family: Arial;
+     background-color: hsl(0, 40%, 50%,0.8);
+   
+}
+#save{
+    width: 100px;
+    height: 75px;
+    border-radius: 20px;
+    border: none;
+    font-family: Arial;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255,0.8);
+    
+}
+#del {width:50px;
+height: 40px;
+border-radius: 20px;
+border: none;
+font-family: Arial;
+font-size: 10px;
+background-color: rgb(255, 255, 255,0.8);
+position: absolute;
+left: 40%;
+top:120%;
+}
+#button-up:hover{ background-color: hsl(120, 100%, 50%);
+cursor: pointer;}
+#button-downs:hover{    background-color: hsl(0, 80%, 40%);
+
+cursor: pointer;}
+#button-up:active{ background-color: hsl(120, 80%, 40%);} 
+
+  
+    #button-downs:active{ background-color: hsl(0, 80%, 40%); }
+ 
